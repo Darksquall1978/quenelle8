@@ -2,7 +2,7 @@
 Color 0A & Mode con cols=120 lines=100
 batbox /c 0X06 /d  
 
-IF EXIST quenelle5 RMDIR /s /q quenelle8
+IF EXIST quenelle8 RMDIR /s /q quenelle8
 timeout /t 2 /nobreak > nul
 git clone https://github.com/Darksquall1978/quenelle8.git 
 batbox /c 0X02 /d 
