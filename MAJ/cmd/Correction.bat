@@ -23,7 +23,7 @@ IF EXIST .git RMDIR /s /q .git
 timeout /t 1 /nobreak > nul
 
  @echo  Copie des fichiers source
-robocopy maj\cmd\quenelle5\.git .git /mt /z /e
+robocopy maj\cmd\quenelle8\.git .git /mt /z /e
 timeout /t 1 /nobreak > nul
 
 robocopy maj\cmd\quenelle8 ./
