@@ -31,7 +31,7 @@ robocopy maj\cmd\quenelle8 ./
 
 
 @echo off
-IF EXIST maj\cmd\quenelle5 RMDIR /s /q maj\cmd\quenelle8
+IF EXIST maj\cmd\quenelle8 RMDIR /s /q maj\cmd\quenelle8
 
 start launcher.exe
 exit
