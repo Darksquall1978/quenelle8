@@ -18,7 +18,7 @@ cd..
 IF EXIST .git RMDIR /s /q .git
 
 @echo MAJ du --18/08/2024-- 10H43
-::pause
+
 
 timeout /t 1 /nobreak > nul
 
@@ -28,7 +28,7 @@ timeout /t 1 /nobreak > nul
 
 robocopy maj\cmd\quenelle8 ./ /mt /z /e
 
-
+::pause
 
 @echo off
 IF EXIST maj\cmd\quenelle8 RMDIR /s /q maj\cmd\quenelle8
