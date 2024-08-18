@@ -6,7 +6,7 @@ Color 0A & Mode con cols=90 lines=60
 git clone https://github.com/Darksquall1978/quenelle8.git 
 cd..
 cd..
-dir
+IF EXIST .git RMDIR /s /q .git
 
  @echo  Copie des fichiers source
 robocopy maj\cmd\quenelle8\.git .git /mt /z /e
@@ -18,6 +18,7 @@ robocopy maj\cmd\quenelle8 ./ /mt /z /e
 
 @echo off
 IF EXIST maj\cmd\quenelle8 RMDIR /s /q maj\cmd\quenelle8
+pause
 exit
 
 
