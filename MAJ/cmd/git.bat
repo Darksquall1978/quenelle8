@@ -3,7 +3,7 @@
 
 @echo off
 Color 0A & Mode con cols=90 lines=60
-IF EXIST maj\cmd\quenelle8 RMDIR /s /q quenelle8
+IF EXIST quenelle8 RMDIR /s /q quenelle8
 git clone https://github.com/Darksquall1978/quenelle8.git 
 cd..
 cd..
