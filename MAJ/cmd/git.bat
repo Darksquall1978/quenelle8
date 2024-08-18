@@ -24,6 +24,6 @@ cd..
 start launcher.exe
 exit
 
-exit
+
 
 
