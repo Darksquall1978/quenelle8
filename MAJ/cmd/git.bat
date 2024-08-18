@@ -21,7 +21,9 @@ robocopy maj\cmd\quenelle8 ./ /mt /z /e
 
 @echo off
 cd maj\cmd
-IF EXIST maj\cmd\quenelle8 RMDIR /s /q quenelle8
+dir
+pause
+IF EXIST quenelle8 RMDIR /s /q quenelle8
 
 exit
 
