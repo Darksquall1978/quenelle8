@@ -19,6 +19,10 @@ robocopy maj\cmd\quenelle8 ./ /mt /z /e
 cd maj\cmd
 
 IF EXIST quenelle8 RMDIR /s /q quenelle8
+cd..
+cd..
+start launcher.exe
+exit
 
 exit
 
